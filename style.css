@@ -1,0 +1,199 @@
+/* ==================== REFERNCE
+
+Font: 14, 32
+
+==================== */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333;
+}
+
+/* ==================== GRID ==================== */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18rem;
+    justify-items: center;
+    align-items: start;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+
+/* ==================== HEAD ==================== */
+
+
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.main-nav-list a:link,
+.main-nav-list a:visited{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+    color: #333;
+}
+
+.main-nav-list a:hover,
+.main-nav-list a:active{
+    color: #62bbc5;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 5rem;
+}
+
+.logo{
+    height: 4.6rem;
+}
+
+/* ==================== HERO ==================== */
+
+.Section_Hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    margin-top: 9rem;
+    margin-bottom: 5rem;
+}
+
+.Hero_Text{
+    margin-left: 2rem;
+}
+
+.hero_description{
+    width: 31rem;
+}
+
+.hello{
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #407B81;
+}
+
+/* ==================== SKILLS ==================== */
+
+.Section_Skills{
+    background-color: #407B81;
+    height: 42rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.title_skills{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.paragraph{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* ==================== PROJECTS ==================== */
+
+.title_Projects{
+    text-align: center;
+    padding-bottom: 5rem;
+    color: #407B81;
+}
+
+.Projects{
+    margin-bottom: 10rem;
+}
+
+.imgproject {
+    max-width: 85%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: #407B81;
+    color: #fff;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    border: none;
+}
+
+button:hover{
+    background-color: #d8a7bf;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+}
+
+/* ==================== FOOTER ==================== */
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #407B81;
+    color: #fff;
+    height: 20rem;
+}
+
+.contact h4{
+    margin-top: 1rem;
+}
+
+.Social{
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
